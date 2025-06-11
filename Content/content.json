@@ -1,0 +1,189 @@
+{
+    "Google Chrome":[
+        {
+            "name":"Firefox",
+            "points":100,
+            "logo":"https://logo.clearbit.com/firefox.com",
+            "link":"https://www.mozilla.org/firefox/"
+        },
+        {
+            "name":"Brave",
+            "points":100,
+            "logo":"https://logo.clearbit.com/brave.com",
+            "link":"https://brave.com/"
+        },
+        {
+            "name":"Safari",
+            "points":100,
+            "logo":"https://logo.clearbit.com/www.apple.com",
+            "link":"https://www.apple.com/safari/"
+        },
+        {
+            "name":"Vivaldi",
+            "points":100,
+            "logo":"https://logo.clearbit.com/vivaldi.com",
+            "link":"https://vivaldi.com/"
+        },
+        {
+            "name":"Opera",
+            "points":100,
+            "logo":"https://logo.clearbit.com/www.opera.com",
+            "link":"https://www.opera.com/"
+        },
+        {
+            "name":"UnGoogled Chromium",
+            "points":100,
+            "logo":"https://logo.clearbit.com/ungoogled-software.github.io",
+            "link":"https://ungoogled-software.github.io/"
+        },
+        {
+            "name":"Tor Browser",
+            "points":100,
+            "logo":"https://logo.clearbit.com/www.torproject.org",
+            "link":"https://www.torproject.org/download/"
+        }
+
+    ],
+    "Google Search":[
+        {
+            "name":"Duck Duck Go",
+            "points":100,
+            "logo":"https://logo.clearbit.com/duckduckgo.com",
+            "link":"https://duckduckgo.com/"
+        },
+        {
+            "name":"Start Page",
+            "points":100,
+            "logo":"https://logo.clearbit.com/startpage.com",
+            "link":"https://www.startpage.com/"
+        },
+        {
+            "name":"Qwant",
+            "points":100,
+            "logo":"https://logo.clearbit.com/www.qwant.com",
+            "link":"https://www.qwant.com/"
+        },
+        {
+            "name":"Ecosia",
+            "points":100,
+            "logo":"https://logo.clearbit.com/www.ecosia.org",
+            "link":"https://www.ecosia.org/"
+        },
+        {
+            "name":"Microsoft Bing",
+            "points":100,
+            "logo":"https://logo.clearbit.com/www.bing.com",
+            "link":"https://www.bing.com/"
+        }
+    ],
+    "Google Chrome Passwords":[
+        {
+            "name":"KeePass",
+            "points":100,
+            "logo":"https://logo.clearbit.com/keepass.info",
+            "link":"https://keepass.info/"
+        },
+        {
+            "name":"Bitwarded",
+            "points":100,
+            "logo":"https://logo.clearbit.com/bitwarden.com",
+            "link":"https://bitwarden.com/"
+        },
+        {
+            "name":"1Password",
+            "points":100,
+            "logo":"https://logo.clearbit.com/1password.com",
+            "link":"https://1password.com/"
+        },
+        {
+            "name":"Last Pass",
+            "points":100,
+            "logo":"https://logo.clearbit.com/www.lastpass.com",
+            "link":"https://www.lastpass.com/"
+        },
+        {
+            "name":"Dashlane",
+            "points":100,
+            "logo":"https://logo.clearbit.com/dashlane.com",
+            "link":"https://www.dashlane.com/"
+        },
+        {
+            "name":"Enpass",
+            "points":100,
+            "logo":"https://logo.clearbit.com/www.enpass.io",
+            "link":"https://www.enpass.io/"
+        }
+    ],
+    "Google Analytics":[
+        {
+            "name":"Matomo  ",
+            "points":100,
+            "logo":"https://logo.clearbit.com/matomo.org",
+            "link":"https://matomo.org/"
+        },
+        {
+            "name":"Fathom",
+            "points":100,
+            "logo":"https://logo.clearbit.com/usefathom.com",
+            "link":"https://usefathom.com/"
+        },
+        {
+            "name":"Simple Analytics",
+            "points":100,
+            "logo":"https://logo.clearbit.com/simpleanalytics.com",
+            "link":"https://simpleanalytics.com/"
+        },
+        {
+            "name":"Amplitude",
+            "points":100,
+            "logo":"https://logo.clearbit.com/amplitude.com",
+            "link":"https://amplitude.com/"
+        },
+        {
+            "name":"OpenWebAnalytics",
+            "points":100,
+            "logo":"https://logo.clearbit.com/openwebanalytics.com",
+            "link":"http://www.openwebanalytics.com/"
+        }
+    ],
+    "Google Mail":[
+        {
+            "name":"ProtonMail",
+            "points":100,
+            "logo":"https://logo.clearbit.com/protonmail.com",
+            "link":"https://proton.me/mail"
+        },
+        {
+            "name":"Fastmail",
+            "points":100,
+            "logo":"https://logo.clearbit.com/fastmail.com",
+            "link":"https://www.fastmail.com/"
+        },
+        {
+            "name":"Tutanota",
+            "points":100,
+            "logo":"https://logo.clearbit.com/tutanota.com",
+            "link":"https://tutanota.com/"
+        }
+    ],
+    "Google Docs":[
+        {
+            "name":"Notion",
+            "points":100,
+            "logo":"https://logo.clearbit.com/www.notion.so",
+            "link":"https://www.notion.so/"
+        },
+        {
+            "name":"Bear Writer",
+            "points":100,
+            "logo":"https://logo.clearbit.com/bear.app",
+            "link":"https://bear.app/"
+        },
+        {
+            "name":"Zoho",
+            "points":100,
+            "logo":"https://logo.clearbit.com/www.zoho.com",
+            "link":"https://www.zoho.com/"
+        }
+    ]
+}

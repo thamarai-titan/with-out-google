@@ -1,189 +1,576 @@
 {
-    "Google Chrome":[
-        {
-            "name":"Firefox",
-            "points":100,
-            "logo":"https://logo.clearbit.com/firefox.com",
-            "link":"https://www.mozilla.org/firefox/"
-        },
-        {
-            "name":"Brave",
-            "points":100,
-            "logo":"https://logo.clearbit.com/brave.com",
-            "link":"https://brave.com/"
-        },
-        {
-            "name":"Safari",
-            "points":100,
-            "logo":"https://logo.clearbit.com/www.apple.com",
-            "link":"https://www.apple.com/safari/"
-        },
-        {
-            "name":"Vivaldi",
-            "points":100,
-            "logo":"https://logo.clearbit.com/vivaldi.com",
-            "link":"https://vivaldi.com/"
-        },
-        {
-            "name":"Opera",
-            "points":100,
-            "logo":"https://logo.clearbit.com/www.opera.com",
-            "link":"https://www.opera.com/"
-        },
-        {
-            "name":"UnGoogled Chromium",
-            "points":100,
-            "logo":"https://logo.clearbit.com/ungoogled-software.github.io",
-            "link":"https://ungoogled-software.github.io/"
-        },
-        {
-            "name":"Tor Browser",
-            "points":100,
-            "logo":"https://logo.clearbit.com/www.torproject.org",
-            "link":"https://www.torproject.org/download/"
-        }
-
-    ],
-    "Google Search":[
-        {
-            "name":"Duck Duck Go",
-            "points":100,
-            "logo":"https://logo.clearbit.com/duckduckgo.com",
-            "link":"https://duckduckgo.com/"
-        },
-        {
-            "name":"Start Page",
-            "points":100,
-            "logo":"https://logo.clearbit.com/startpage.com",
-            "link":"https://www.startpage.com/"
-        },
-        {
-            "name":"Qwant",
-            "points":100,
-            "logo":"https://logo.clearbit.com/www.qwant.com",
-            "link":"https://www.qwant.com/"
-        },
-        {
-            "name":"Ecosia",
-            "points":100,
-            "logo":"https://logo.clearbit.com/www.ecosia.org",
-            "link":"https://www.ecosia.org/"
-        },
-        {
-            "name":"Microsoft Bing",
-            "points":100,
-            "logo":"https://logo.clearbit.com/www.bing.com",
-            "link":"https://www.bing.com/"
-        }
-    ],
-    "Google Chrome Passwords":[
-        {
-            "name":"KeePass",
-            "points":100,
-            "logo":"https://logo.clearbit.com/keepass.info",
-            "link":"https://keepass.info/"
-        },
-        {
-            "name":"Bitwarded",
-            "points":100,
-            "logo":"https://logo.clearbit.com/bitwarden.com",
-            "link":"https://bitwarden.com/"
-        },
-        {
-            "name":"1Password",
-            "points":100,
-            "logo":"https://logo.clearbit.com/1password.com",
-            "link":"https://1password.com/"
-        },
-        {
-            "name":"Last Pass",
-            "points":100,
-            "logo":"https://logo.clearbit.com/www.lastpass.com",
-            "link":"https://www.lastpass.com/"
-        },
-        {
-            "name":"Dashlane",
-            "points":100,
-            "logo":"https://logo.clearbit.com/dashlane.com",
-            "link":"https://www.dashlane.com/"
-        },
-        {
-            "name":"Enpass",
-            "points":100,
-            "logo":"https://logo.clearbit.com/www.enpass.io",
-            "link":"https://www.enpass.io/"
-        }
-    ],
-    "Google Analytics":[
-        {
-            "name":"Matomo  ",
-            "points":100,
-            "logo":"https://logo.clearbit.com/matomo.org",
-            "link":"https://matomo.org/"
-        },
-        {
-            "name":"Fathom",
-            "points":100,
-            "logo":"https://logo.clearbit.com/usefathom.com",
-            "link":"https://usefathom.com/"
-        },
-        {
-            "name":"Simple Analytics",
-            "points":100,
-            "logo":"https://logo.clearbit.com/simpleanalytics.com",
-            "link":"https://simpleanalytics.com/"
-        },
-        {
-            "name":"Amplitude",
-            "points":100,
-            "logo":"https://logo.clearbit.com/amplitude.com",
-            "link":"https://amplitude.com/"
-        },
-        {
-            "name":"OpenWebAnalytics",
-            "points":100,
-            "logo":"https://logo.clearbit.com/openwebanalytics.com",
-            "link":"http://www.openwebanalytics.com/"
-        }
-    ],
-    "Google Mail":[
-        {
-            "name":"ProtonMail",
-            "points":100,
-            "logo":"https://logo.clearbit.com/protonmail.com",
-            "link":"https://proton.me/mail"
-        },
-        {
-            "name":"Fastmail",
-            "points":100,
-            "logo":"https://logo.clearbit.com/fastmail.com",
-            "link":"https://www.fastmail.com/"
-        },
-        {
-            "name":"Tutanota",
-            "points":100,
-            "logo":"https://logo.clearbit.com/tutanota.com",
-            "link":"https://tutanota.com/"
-        }
-    ],
-    "Google Docs":[
-        {
-            "name":"Notion",
-            "points":100,
-            "logo":"https://logo.clearbit.com/www.notion.so",
-            "link":"https://www.notion.so/"
-        },
-        {
-            "name":"Bear Writer",
-            "points":100,
-            "logo":"https://logo.clearbit.com/bear.app",
-            "link":"https://bear.app/"
-        },
-        {
-            "name":"Zoho",
-            "points":100,
-            "logo":"https://logo.clearbit.com/www.zoho.com",
-            "link":"https://www.zoho.com/"
-        }
-    ]
+  "Google Chrome": [
+    {
+      "alternative": "Firefox",
+      "link": "https://www.mozilla.org/en-US/firefox/",
+      "logo": "https://icon.horse/icon/mozilla.org"
+    },
+    {
+      "alternative": "Brave",
+      "link": "https://brave.com/",
+      "logo": "https://icon.horse/icon/brave.com"
+    },
+    {
+      "alternative": "Safari",
+      "link": "https://www.apple.com/safari/",
+      "logo": "https://icon.horse/icon/apple.com"
+    },
+    {
+      "alternative": "Vivaldi",
+      "link": "https://vivaldi.com/",
+      "logo": "https://icon.horse/icon/vivaldi.com"
+    },
+    {
+      "alternative": "Opera",
+      "link": "https://www.opera.com/",
+      "logo": "https://icon.horse/icon/opera.com"
+    },
+    {
+      "alternative": "Ungoogled Chromium",
+      "link": "https://github.com/ungoogled-software/ungoogled-chromium",
+      "logo": "https://icon.horse/icon/github.com"
+    },
+    {
+      "alternative": "Tor Browser",
+      "link": "https://www.torproject.org/",
+      "logo": "https://icon.horse/icon/torproject.org"
+    }
+  ],
+  "Google Search": [
+    {
+      "alternative": "Duck Duck Go",
+      "link": "https://duckduckgo.com/",
+      "logo": "https://icon.horse/icon/duckduckgo.com"
+    },
+    {
+      "alternative": "Startpage",
+      "link": "https://www.startpage.com/",
+      "logo": "https://icon.horse/icon/startpage.com"
+    },
+    {
+      "alternative": "Qwant",
+      "link": "https://www.qwant.com/",
+      "logo": "https://icon.horse/icon/qwant.com"
+    },
+    {
+      "alternative": "Ecosia",
+      "link": "https://www.ecosia.org/",
+      "logo": "https://icon.horse/icon/ecosia.org"
+    },
+    {
+      "alternative": "Microsoft Bing",
+      "link": "https://www.bing.com/",
+      "logo": "https://icon.horse/icon/bing.com"
+    }
+  ],
+  "Google Chrome Passwords": [
+    {
+      "alternative": "BitWarden",
+      "link": "https://bitwarden.com/",
+      "logo": "https://icon.horse/icon/bitwarden.com"
+    },
+    {
+      "alternative": "KeePass",
+      "link": "https://keepass.info/",
+      "logo": "https://icon.horse/icon/keepass.info"
+    },
+    {
+      "alternative": "1Password",
+      "link": "https://1password.com/",
+      "logo": "https://icon.horse/icon/1password.com"
+    },
+    {
+      "alternative": "LastPass",
+      "link": "https://www.lastpass.com/",
+      "logo": "https://icon.horse/icon/lastpass.com"
+    },
+    {
+      "alternative": "Dashlane",
+      "link": "https://www.dashlane.com/",
+      "logo": "https://icon.horse/icon/dashlane.com"
+    },
+    {
+      "alternative": "Enpass",
+      "link": "https://www.enpass.io/",
+      "logo": "https://icon.horse/icon/enpass.io"
+    }
+  ],
+  "Google Analytics": [
+    {
+      "alternative": "Matomo",
+      "link": "https://matomo.org/",
+      "logo": "https://icon.horse/icon/matomo.org"
+    },
+    {
+      "alternative": "Fathom",
+      "link": "https://usefathom.com/",
+      "logo": "https://icon.horse/icon/usefathom.com"
+    },
+    {
+      "alternative": "Simple Analytics",
+      "link": "https://simpleanalytics.com/",
+      "logo": "https://icon.horse/icon/simpleanalytics.com"
+    },
+    {
+      "alternative": "Amplitude",
+      "link": "https://amplitude.com/",
+      "logo": "https://icon.horse/icon/amplitude.com"
+    },
+    {
+      "alternative": "OpenWebAnalytics",
+      "link": "https://github.com/padams/Open-Web-Analytics",
+      "logo": "https://icon.horse/icon/github.com"
+    }
+  ],
+  "Google Mail": [
+    {
+      "alternative": "ProtonMail",
+      "link": "https://proton.me/mail",
+      "logo": "https://icon.horse/icon/proton.me"
+    },
+    {
+      "alternative": "Fastmail",
+      "link": "https://www.fastmail.com/",
+      "logo": "https://icon.horse/icon/fastmail.com"
+    },
+    {
+      "alternative": "Tutanota",
+      "link": "https://tuta.com/",
+      "logo": "https://icon.horse/icon/tuta.com"
+    },
+    {
+      "alternative": "Zoho Mail",
+      "link": "https://www.zoho.com/mail/",
+      "logo": "https://icon.horse/icon/zoho.com"
+    },
+    {
+      "alternative": "posteo",
+      "link": "https://posteo.de/",
+      "logo": "https://icon.horse/icon/posteo.de"
+    },
+    {
+      "alternative": "GMX",
+      "link": "https://www.gmx.com/",
+      "logo": "https://icon.horse/icon/gmx.com"
+    },
+    {
+      "alternative": "Canary Mail",
+      "link": "https://canarymail.io/",
+      "logo": "https://icon.horse/icon/canarymail.io"
+    },
+    {
+      "alternative": "Yandex.Mail",
+      "link": "https://mail.yandex.com/",
+      "logo": "https://icon.horse/icon/yandex.com"
+    },
+    {
+      "alternative": "Hey.com",
+      "link": "https://hey.com/",
+      "logo": "https://icon.horse/icon/hey.com"
+    }
+  ],
+  "Google Docs": [
+    {
+      "alternative": "Notion",
+      "link": "https://www.notion.so/",
+      "logo": "https://icon.horse/icon/notion.so"
+    },
+    {
+      "alternative": "LibreOffice",
+      "link": "https://www.libreoffice.org/",
+      "logo": "https://icon.horse/icon/libreoffice.org"
+    },
+    {
+      "alternative": "Bear Writer",
+      "link": "https://bear.app/",
+      "logo": "https://icon.horse/icon/bear.app"
+    },
+    {
+      "alternative": "Zoho",
+      "link": "https://www.zoho.com/writer/",
+      "logo": "https://icon.horse/icon/zoho.com"
+    },
+    {
+      "alternative": "Workflowy",
+      "link": "https://workflowy.com/",
+      "logo": "https://icon.horse/icon/workflowy.com"
+    },
+    {
+      "alternative": "Quip",
+      "link": "https://quip.com/",
+      "logo": "https://icon.horse/icon/quip.com"
+    },
+    {
+      "alternative": "Zoho Docs",
+      "link": "https://www.zoho.com/docs/",
+      "logo": "https://icon.horse/icon/zoho.com"
+    }
+  ],
+  "Google Sheets": [
+    {
+      "alternative": "Airtable",
+      "link": "https://www.airtable.com/",
+      "logo": "https://icon.horse/icon/airtable.com"
+    },
+    {
+      "alternative": "Zoho",
+      "link": "https://www.zoho.com/sheet/",
+      "logo": "https://icon.horse/icon/zoho.com"
+    },
+    {
+      "alternative": "Coda",
+      "link": "https://coda.io/",
+      "logo": "https://icon.horse/icon/coda.io"
+    },
+    {
+      "alternative": "Quip",
+      "link": "https://quip.com/",
+      "logo": "https://icon.horse/icon/quip.com"
+    }
+  ],
+  "YouTube": [
+    {
+      "alternative": "Vimeo",
+      "link": "https://vimeo.com/",
+      "logo": "https://icon.horse/icon/vimeo.com"
+    },
+    {
+      "alternative": "PeerTube",
+      "link": "https://joinpeertube.org/",
+      "logo": "https://icon.horse/icon/joinpeertube.org"
+    },
+    {
+      "alternative": "Dailymotion",
+      "link": "https://www.dailymotion.com/",
+      "logo": "https://icon.horse/icon/dailymotion.com"
+    },
+    {
+      "alternative": "BitChute",
+      "link": "https://www.bitchute.com/",
+      "logo": "https://icon.horse/icon/bitchute.com"
+    },
+    {
+      "alternative": "DTube",
+      "link": "https://d.tube/",
+      "logo": "https://icon.horse/icon/d.tube"
+    }
+  ],
+  "Google Maps for Websites": [
+    {
+      "alternative": "Leaflet",
+      "link": "https://leafletjs.com/",
+      "logo": "https://icon.horse/icon/leafletjs.com"
+    },
+    {
+      "alternative": "Mapbox",
+      "link": "https://www.mapbox.com/",
+      "logo": "https://icon.horse/icon/mapbox.com"
+    },
+    {
+      "alternative": "Map 🐈",
+      "link": "https://mapcat.com/",
+      "logo": "https://icon.horse/icon/mapcat.com"
+    },
+    {
+      "alternative": "Nextzen",
+      "link": "https://www.nextzen.org/",
+      "logo": "https://icon.horse/icon/nextzen.org"
+    }
+  ],
+  "Google AdWords": [
+    {
+      "alternative": "BuySellAds",
+      "link": "https://www.buysellads.com/",
+      "logo": "https://icon.horse/icon/buysellads.com"
+    }
+  ],
+  "Google Authenticator": [
+    {
+      "alternative": "Authy",
+      "link": "https://authy.com/",
+      "logo": "https://icon.horse/icon/authy.com"
+    },
+    {
+      "alternative": "1Password",
+      "link": "https://1password.com/",
+      "logo": "https://icon.horse/icon/1password.com"
+    },
+    {
+      "alternative": "AndOTP",
+      "link": "https://github.com/andOTP/andOTP",
+      "logo": "https://icon.horse/icon/github.com"
+    },
+    {
+      "alternative": "LastPass Authenticator",
+      "link": "https://www.lastpass.com/products/authenticator",
+      "logo": "https://icon.horse/icon/lastpass.com"
+    },
+    {
+      "alternative": "Duo",
+      "link": "https://duo.com/",
+      "logo": "https://icon.horse/icon/duo.com"
+    },
+    {
+      "alternative": "Aegis Authenticator",
+      "link": "https://getaegis.app/",
+      "logo": "https://icon.horse/icon/getaegis.app"
+    },
+    {
+      "alternative": "FreeOTP",
+      "link": "https://freeotp.github.io/",
+      "logo": "https://icon.horse/icon/freeotp.github.io"
+    },
+    {
+      "alternative": "Dashlane",
+      "link": "https://www.dashlane.com/",
+      "logo": "https://icon.horse/icon/dashlane.com"
+    }
+  ],
+  "Google Blogger": [
+    {
+      "alternative": "WordPress",
+      "link": "https://wordpress.org/",
+      "logo": "https://icon.horse/icon/wordpress.org"
+    },
+    {
+      "alternative": "Medium",
+      "link": "https://medium.com/",
+      "logo": "https://icon.horse/icon/medium.com"
+    },
+    {
+      "alternative": "Ghost",
+      "link": "https://ghost.org/",
+      "logo": "https://icon.horse/icon/ghost.org"
+    },
+    {
+      "alternative": "Squarespace",
+      "link": "https://www.squarespace.com/",
+      "logo": "https://icon.horse/icon/squarespace.com"
+    },
+    {
+      "alternative": "Substack",
+      "link": "https://substack.com/",
+      "logo": "https://icon.horse/icon/substack.com"
+    }
+  ],
+  "Google DNS": [
+    {
+      "alternative": "Cloudflare",
+      "link": "https://1.1.1.1/",
+      "logo": "https://icon.horse/icon/cloudflare.com"
+    },
+    {
+      "alternative": "OpenDNS",
+      "link": "https://www.opendns.com/",
+      "logo": "https://icon.horse/icon/opendns.com"
+    },
+    {
+      "alternative": "Quad9",
+      "link": "https://www.quad9.net/",
+      "logo": "https://icon.horse/icon/quad9.net"
+    }
+  ],
+  "Google Drive": [
+    {
+      "alternative": "Nextcloud",
+      "link": "https://nextcloud.com/",
+      "logo": "https://icon.horse/icon/nextcloud.com"
+    },
+    {
+      "alternative": "Dropbox",
+      "link": "https://www.dropbox.com/",
+      "logo": "https://icon.horse/icon/dropbox.com"
+    },
+    {
+      "alternative": "MEGA",
+      "link": "https://mega.io/",
+      "logo": "https://icon.horse/icon/mega.io"
+    },
+    {
+      "alternative": "Zoho",
+      "link": "https://www.zoho.com/workdrive/",
+      "logo": "https://icon.horse/icon/zoho.com"
+    },
+    {
+      "alternative": "Backblaze",
+      "link": "https://www.backblaze.com/",
+      "logo": "https://icon.horse/icon/backblaze.com"
+    },
+    {
+      "alternative": "Tresorit",
+      "link": "https://tresorit.com/",
+      "logo": "https://icon.horse/icon/tresorit.com"
+    },
+    {
+      "alternative": "Arq Backup",
+      "link": "https://www.arqbackup.com/",
+      "logo": "https://icon.horse/icon/arqbackup.com"
+    },
+    {
+      "alternative": "SpiderOak",
+      "link": "https://spideroak.com/",
+      "logo": "https://icon.horse/icon/spideroak.com"
+    },
+    {
+      "alternative": "pCloud",
+      "link": "https://www.pcloud.com/",
+      "logo": "https://icon.horse/icon/pcloud.com"
+    }
+  ],
+  "Google Flights": [
+    {
+      "alternative": "Skyscanner",
+      "link": "https://www.skyscanner.com/",
+      "logo": "https://icon.horse/icon/skyscanner.com"
+    },
+    {
+      "alternative": "Kiwi",
+      "link": "https://www.kiwi.com/",
+      "logo": "https://icon.horse/icon/kiwi.com"
+    },
+    {
+      "alternative": "Skiplagged",
+      "link": "https://skiplagged.com/",
+      "logo": "https://icon.horse/icon/skiplagged.com"
+    },
+    {
+      "alternative": "Hipmunk",
+      "link": "https://www.hipmunk.com/",
+      "logo": "https://icon.horse/icon/hipmunk.com"
+    }
+  ],
+  "Google Hangouts": [
+    {
+      "alternative": "Telegram",
+      "link": "https://telegram.org/",
+      "logo": "https://icon.horse/icon/telegram.org"
+    },
+    {
+      "alternative": "Signal",
+      "link": "https://signal.org/",
+      "logo": "https://icon.horse/icon/signal.org"
+    },
+    {
+      "alternative": "Discord",
+      "link": "https://discord.com/",
+      "logo": "https://icon.horse/icon/discord.com"
+    },
+    {
+      "alternative": "Slack",
+      "link": "https://slack.com/",
+      "logo": "https://icon.horse/icon/slack.com"
+    },
+    {
+      "alternative": "Wire",
+      "link": "https://wire.com/",
+      "logo": "https://icon.horse/icon/wire.com"
+    },
+    {
+      "alternative": "Zoom",
+      "link": "https://zoom.us/",
+      "logo": "https://icon.horse/icon/zoom.us"
+    },
+    {
+      "alternative": "Whereby",
+      "link": "https://whereby.com/",
+      "logo": "https://icon.horse/icon/whereby.com"
+    },
+    {
+      "alternative": "Matrix",
+      "link": "https://matrix.org/",
+      "logo": "https://icon.horse/icon/matrix.org"
+    },
+    {
+      "alternative": "Stealthy",
+      "link": "https://www.stealthy.im/",
+      "logo": "https://icon.horse/icon/stealthy.im"
+    }
+  ],
+  "Google Images": [
+    {
+      "alternative": "Unsplash",
+      "link": "https://unsplash.com/",
+      "logo": "https://icon.horse/icon/unsplash.com"
+    },
+    {
+      "alternative": "Pexels",
+      "link": "https://www.pexels.com/",
+      "logo": "https://icon.horse/icon/pexels.com"
+    },
+    {
+      "alternative": "TinEye",
+      "link": "https://tineye.com/",
+      "logo": "https://icon.horse/icon/tineye.com"
+    },
+    {
+      "alternative": "500px",
+      "link": "https://500px.com/",
+      "logo": "https://icon.horse/icon/500px.com"
+    }
+  ],
+  "Google Maps": [
+    {
+      "alternative": "OpenStreetMap",
+      "link": "https://www.openstreetmap.org/",
+      "logo": "https://icon.horse/icon/openstreetmap.org"
+    },
+    {
+      "alternative": "Here",
+      "link": "https://www.here.com/",
+      "logo": "https://icon.horse/icon/here.com"
+    },
+    {
+      "alternative": "Magic Earth",
+      "link": "https://www.magicearth.com/",
+      "logo": "https://icon.horse/icon/magicearth.com"
+    }
+  ],
+  "Google Poly": [
+    {
+      "alternative": "Sketchfab",
+      "link": "https://sketchfab.com/",
+      "logo": "https://icon.horse/icon/sketchfab.com"
+    },
+    {
+      "alternative": "TurboSquid",
+      "link": "https://www.turbosquid.com/",
+      "logo": "https://icon.horse/icon/turbosquid.com"
+    }
+  ],
+  "Google Scholar": [
+    {
+      "alternative": "arXiv",
+      "link": "https://arxiv.org/",
+      "logo": "https://icon.horse/icon/arxiv.org"
+    }
+  ],
+  "Google Translate": [
+    {
+      "alternative": "Deepl",
+      "link": "https://www.deepl.com/",
+      "logo": "https://icon.horse/icon/deepl.com"
+    },
+    {
+      "alternative": "WordReference",
+      "link": "https://www.wordreference.com/",
+      "logo": "https://icon.horse/icon/wordreference.com"
+    },
+    {
+      "alternative": "Translate.com",
+      "link": "https://www.translate.com/",
+      "logo": "https://icon.horse/icon/translate.com"
+    }
+  ],
+  "Google Weather": [
+    {
+      "alternative": "Dark Sky",
+      "link": "https://darksky.net/",
+      "logo": "https://icon.horse/icon/darksky.net"
+    },
+    {
+      "alternative": "Weather Underground",
+      "link": "https://www.wunderground.com/",
+      "logo": "https://icon.horse/icon/wunderground.com"
+    }
+  ]
 }

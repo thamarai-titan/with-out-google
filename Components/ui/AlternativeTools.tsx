@@ -1,33 +1,21 @@
 "use client"
 import Link from 'next/link';
-import Image from 'next/image';
 
 interface AlternativeToolsProps {
     alternative: string;
     link: string;
-    logo: string;
     tag?: string;
 }
 
-const AlternativeTools = ({ alternative, link, logo, tag }: AlternativeToolsProps) => {
+const AlternativeTools = ({ alternative, link, tag }: AlternativeToolsProps) => {
     return (
         <div className="relative flex items-center gap-3.5 px-6 py-2.5 transition-colors duration-150 hover:bg-neutral-50 group not-last:after:absolute not-last:after:bottom-0 not-last:after:left-6 not-last:after:right-6 not-last:after:h-px not-last:after:bg-neutral-100">
             <div className="flex h-[30px] w-[30px] shrink-0 items-center justify-center overflow-hidden rounded-lg border border-neutral-200 bg-white">
-                <Image
-                    src={logo}
-                    alt={alternative}
-                    width={18}
-                    height={18}
-                    className="object-contain"
-                    onError={(e) => {
-                        const target = e.currentTarget as HTMLImageElement;
-                        target.style.display = 'none';
-                        const parent = target.parentElement;
-                        if (parent) {
-                            parent.innerHTML = `<span class="text-[11px] font-medium text-neutral-500">${alternative.charAt(0)}</span>`;
-                        }
-                    }}
-                />
+                <div className="w-[18px] h-[18px] flex items-center justify-center rounded bg-neutral-200">
+                    <span className="text-[11px] font-medium text-neutral-600">
+                        {alternative?.charAt(0).toUpperCase()}
+                    </span>
+                </div>
             </div>
 
             <span className="flex-1 text-sm text-neutral-800">{alternative}</span>

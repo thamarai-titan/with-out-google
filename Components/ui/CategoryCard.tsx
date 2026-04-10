@@ -18,7 +18,7 @@ const CategoryCard = ({ googleProduct, alternatives }: CategoryCardProps) => {
                 <span className="mr-auto text-[10px] uppercase tracking-widest text-neutral-400">
                     Google product
                 </span>
-                <span className="h-[7px] w-[7px] shrink-0 rounded-full bg-red-400" />
+                <span className="h-[7px] w-[7px] shrink-0 rounded-full bg-(--accent)" />
                 <span className="text-sm font-medium text-neutral-800">{googleProduct}</span>
             </div>
 
@@ -28,7 +28,6 @@ const CategoryCard = ({ googleProduct, alternatives }: CategoryCardProps) => {
                         key={index}
                         alternative={alt.alternative}
                         link={alt.link}
-                        logo={alt.logo}
                         tag={alt.tag}
                     />
                 ))}

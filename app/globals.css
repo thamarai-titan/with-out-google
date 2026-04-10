@@ -1,7 +1,11 @@
 @import "tailwindcss";
 
-@layer base {
-  html {
-    background-color: #000000;
-  }
+:root {
+  color-scheme: light dark;
+  --bg: #f5f5f7;
+  --card-bg: #ffffff;
+  --text-primary: #1d1d1f;
+  --text-secondary: #86868b;
+  --border: #e5e5ea;
+  --accent: #6633ee;
 }
